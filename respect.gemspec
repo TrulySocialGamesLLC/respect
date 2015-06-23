@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   ]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "activesupport", "~> 3.2.13"
+  s.add_dependency "activesupport"
 
   s.add_development_dependency 'yard', '~> 0.8.5.2'
   s.add_development_dependency 'mocha', '~> 0.13.3'
